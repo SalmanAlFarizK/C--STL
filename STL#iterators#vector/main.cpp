@@ -18,7 +18,7 @@ int main() {
     cout << "Reversed: ";
     vector<int>::reverse_iterator rit;   //reversed iterator initialization
     for (rit = v.rbegin(); rit != v.rend(); rit++) {
-        cout << *rit << " ";
+        cout << *rit << "-";
     }
     cout<<endl;
 
