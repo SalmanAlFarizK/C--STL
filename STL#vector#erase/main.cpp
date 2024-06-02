@@ -23,6 +23,6 @@ int main()
     v.erase(v.begin()+1,v.begin()+5);
     for(auto i: v)
     {
-        cout<<i<<" ";
+        cout<<i<<"  ";
     }
 }
