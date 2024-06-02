@@ -19,7 +19,7 @@ int main()
 
     cout<<endl;
 
-    cout<<"vector array after erasing at range of position "<<endl;
+    cout<<"vector array after erasing at range of position  : "<<endl;
     v.erase(v.begin()+1,v.begin()+5);
     for(auto i: v)
     {
