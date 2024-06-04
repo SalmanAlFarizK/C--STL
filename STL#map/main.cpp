@@ -9,7 +9,8 @@ int main()
     M["two"]=2;
     M["three"]=3;
     M["four"]=4;
-    M["fivr"]=5;
+    M["five"]=5;
+    M["six"]=6;
 
     map<string,int>::iterator it=M.begin();
 
