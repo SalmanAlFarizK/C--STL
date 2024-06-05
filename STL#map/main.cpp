@@ -17,7 +17,8 @@ int main()
     while(it!=M.end())
     {
         cout<<"keys :   "<<it->first<<"            values :    "<<it->second<<endl;
+        cout<<endl;
         it++;
     }
-    return 0;
+    return 0; 
 }
