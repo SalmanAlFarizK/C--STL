@@ -25,7 +25,7 @@ void displayList(list<int> l)
 int main() {
    cout<<"creating the list of size 10 "<<endl;
    list<int>L1;
-   for(int i=10;i>=1;i--)
+   for(int i=15;i>=1;i--)
    {
        L1.push_back(i);
    }
